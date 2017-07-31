@@ -1,22 +1,37 @@
-## Laravel PHP Framework
+# Blindformation #
+## Project Description ##
+Blindformation is a web application that could help visually impaired people to get information about election. Blindformation provide two usage modes : Self Mode and Accompanion Mode. In "Self Mode", Blindformation will guide user through voice guidance in each menu and user only need to press number 1-8 in their keyboard to interact with this app. All candidates data used in this app is come from Pemilu API.
 
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/version.png)](https://packagist.org/packages/laravel/framework) [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.png)](https://packagist.org/packages/laravel/framework) [![Build Status](https://travis-ci.org/laravel/framework.png)](https://travis-ci.org/laravel/framework) [![License](https://poser.pugx.org/laravel/framework/license.png)](https://packagist.org/packages/laravel/framework) 
+## How to Install ##
+- Clone this repository
+- Create DB with name "blindformation" or you could use your own DB. If you use your own DB, please make sure you set database configuration in app/config/database.php
+- Import "calon.sql" to your DB.
+- Open "http://localhost/blindformation/public/" to check whether  Blindformation already installed properly. Welcoming message should automatically triggered when you open the index page.
+-  Click menu "Aplikasi".
+-  Choose your election region, after that you will be redirected to Blindformation main app 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+## Achievement ##
+Blindformation has awarded as winner for Dissability category in Pilkada Apps Challenge Code for Vote 4.0 2015 [Official Announcement](http://kpu.go.id/index.php/post/read/2015/4470/Daftar-Pemenang-Pilkada-Serentak-Apps-Challenge-Code-For-Vote-40/berita-terkini).
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## Featured In ##
+- [UGM Site](http://www.ugm.ac.id/en/news/10696-ugm.student.makes.election.information.apps.for.the.disabled)
+- [Antara](http://www.antaranews.com/video/21854/aplikasi-informasi-pilkada-bagi-tunanetra)
+- [Metro TV](http://video.metrotvnews.com/play/2015/11/11/449586/mahasiswa-ugm-buat-aplikasi-pilkada-khusus-kaum-disabilitas)
+- [Kompas](http://biz.kompas.com/read/2015/11/12/092607428/KPU.Luncurkan.Aplikasi.untuk.Akses.Pilkada.Serentak.2015)
+- [Tempo](http://www.tempo.co/read/news/2015/11/18/274719986/blindformation-untuk-tunanetra-dari-ugm)
+- [Detik](http://news.detik.com/berita/3073500/hebat-mahasiswa-ugm-ini-buat-aplikasi-informasi-pilkada-bagi-tunanetra)
+- [Okezone](http://news.okezone.com/read/2015/11/19/65/1252143/mahasiswa-ugm-ciptakan-aplikasi-pilkada-bagi-tunanetra)
+- [Sindo](http://www.koran-sindo.com/news.php?r=6&n=112&date=2015-11-18)
+- Another local and youth media
 
-## Official Documentation
+## Contact ##
+If you want to get in touch with me, pleas reach me at [derta.isyajora@gmail.com](mailto:derta.isyajora@gmail.com)
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
+## Built With ##
+- [Laravel 4.1](https://laravel.com/)
+- [ResponsiveVoice](https://responsivevoice.org/)
+- [MySQL](https://www.mysql.com/)
 
-### Contributing To Laravel
-
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
-# Blindformation
+## License ##
+Blindformation is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). 
